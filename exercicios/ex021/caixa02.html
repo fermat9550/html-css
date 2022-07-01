@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;           
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        section#noticias{
+            background-color: brown;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 5px;
+            /*Da pra criar box shadow pelo proprio dev tool do google, basta selecionar a caixa, colocar o mouse sobre os 2 quadradinhos, e configurar a shadow
+            */
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.425);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;/*vertices arredondados*/
+        }
+        article{
+            background-color: lightblue;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(77, 97, 104);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px auto 0px auto;
+            border-radius: 50%;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.384);
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Assuntos do dia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa neque vitae, dolorem deleniti possimus dolores optio sed ipsam expedita. Mollitia est veniam magni voluptas reprehenderit maiores molestiae iste iusto aut.</p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por FelipeBarbier</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>

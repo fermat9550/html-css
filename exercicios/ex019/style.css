@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+    em HTML é id      = em CSS é #
+    em HTML é class = em CSS é .
+    Podemos colocar id e class no mesmo elemento, porem o ID se sobressai
+*/
+
+body{
+    background-color: rgb(127, 255, 212);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: green;
+}
+h1#principal{
+    text-align: center;
+    background-color: green ;
+    color: white;
+    font-size: 2em;
+}
+h2{
+    color: rgb(43, 63, 12);
+}
+.basico{
+    color:rgb(43, 63, 12) ;
+}
+.intermediario{
+    color: rgb(219, 165, 15);
+}
+.avancado{
+    color: rgb(167, 11, 11);
+}
+.destaque{
+    background-color: rgba(137, 43, 226, 0.336);
+}
