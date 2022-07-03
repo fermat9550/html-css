@@ -6,24 +6,45 @@
 }
 body{
     margin: auto;
-    max-width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(127, 255, 212, 0.644);
+    background-image: url(pexels-miriam.jpg);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.404);
+
+}
+main{
+    max-width: 1080px;
+    margin: auto;
+}
+main h1{
+    display: block;
+    margin: auto;
 }
 main div{
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.459);
     padding: 20px;
-    margin: 5px;
+    margin: 20px;
     text-align: justify;
     background-color: white;
 }
 main p {
     text-indent: 20px;
+    line-height: 30px;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+main ul{
+        text-indent: 20px;
+        line-height: 30px;
+        max-width: 600px;
+        display: block;
+        margin: auto;
+}
+main li{
+    font-weight: bold;
 }
 main h1{
     margin: auto;
-}
-h1#oq{
-    color: white;
-    background-color: red;
 }
