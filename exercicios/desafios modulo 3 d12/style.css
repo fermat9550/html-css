@@ -1,0 +1,85 @@
+@charset "UFT-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+p{
+    font-size: 2em;
+}
+header{
+    height: 400px;
+    position: relative;
+}
+header > h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 6em;
+}
+header > p{
+    text-align: center;
+    font-style: none;
+}
+p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+p a:hover{
+    text-decoration: underline;
+
+}
+section.branco{
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 600px;
+}
+main #b2, #b3{
+    height: 1200px;
+}
+#b1 > p{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    margin-left: 20px;
+    line-height: 2em;
+    padding: 20px;
+}
+#b2{
+    position: relative;
+}
+#b2 > p{
+    display: block;
+    margin: auto;
+
+}
+#abelha{
+    position: relative;
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 600px;
+}
+#abelha > p{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    padding: 20px;
+    margin-left: 20px;
+    line-height: 2em;
+}
+
+.imagem > p{
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.233);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+}
+
